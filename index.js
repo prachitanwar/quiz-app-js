@@ -30,5 +30,5 @@ form.addEventListener("submit",event => {
     result.classList.remove("hide");
     const updatedScore = result.querySelector("p");
     console.log(updatedScore);
-    updatedScore.textContent = `You scored ${score}!`;
-})
+    updatedScore.textContent = `You scored ${score}/5!`;
+})  
